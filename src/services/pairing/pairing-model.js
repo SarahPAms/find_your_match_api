@@ -9,9 +9,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const pairingSchema = new Schema({
-  courseName: { type: String, required: false },
-  courseDate: { type: Date, required: true, 'default': Date.now}
-  pairingIds: [Schema.Types.ObjectId, ref: 'user']
+  courseName: { type: String },
+  courseDate: { type: Date, 'default': Date.now },
+
   createdAt: { type: Date, 'default': Date.now },
   updatedAt: { type: Date, 'default': Date.now }
 });
