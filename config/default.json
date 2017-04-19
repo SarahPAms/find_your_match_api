@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/findYourMatchApi",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "qlljVrO9n0flWnBOug0LhEmbjtdRGmpQkblPo+ajQUIXubLHg/Z+jG/oovbrH9q88Ra3QduzyYfu41Y5zEI6pA=="
+    },
+    "local": {}
+  }
+}
